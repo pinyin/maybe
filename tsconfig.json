@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "es5",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "declaration": true,
+    "strict": true,
+    "declarationDir": "dist",
+    "lib": [
+      "esnext"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".idea",
+    ".vscode",
+    "build",
+    "dist"
+  ]
+}

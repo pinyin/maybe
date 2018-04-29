@@ -1,0 +1,7 @@
+export {alternate} from './alternate'
+export {assume} from './assume'
+export {ensure} from './ensure'
+export {existing} from './existing'
+export {Maybe} from './Maybe'
+export {notExisting} from './notExisting'
+export {nothing} from './nothing'
