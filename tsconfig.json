@@ -16,6 +16,8 @@
     ".idea",
     ".vscode",
     "build",
-    "dist"
+    "dist",
+    "**/*.spec.*",
+    "**/*.test.*"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "@pinyin/maybe",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Call me maybe.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "prepublish": "rm -r dist && npx tsc",
+    "prepare": "rm -r dist && npx tsc",
     "test": "npx jest"
   },
   "repository": {
@@ -19,7 +19,7 @@
     "maybe",
     "monad"
   ],
-  "author": "Robert Bao <bob432091@gmail.com> (https://github.com/pinyin)",
+  "author": "Bo Bao <bob432091@gmail.com> (https://github.com/pinyin)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pinyin/maybe/issues"
