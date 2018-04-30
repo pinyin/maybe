@@ -1,6 +1,6 @@
 {
   "name": "@pinyin/maybe",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Call me maybe.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "prepare": "rm -r dist && npx tsc",
+    "prepublishOnly": "rm -r dist && npx tsc",
     "test": "npx jest"
   },
   "repository": {
