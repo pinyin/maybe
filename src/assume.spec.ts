@@ -8,5 +8,7 @@ describe(`${assume.name}`, () => {
         const func = (a: number) => { return a + 1}
         expect(assume(null, func)).toBeNull()
         expect(assume(1, func)).toEqual(2)
+        expect(assume(1, func, func)).toEqual(3)
+        expect(assume(1, func, func, func, func)).toEqual(5)
     })
 })
