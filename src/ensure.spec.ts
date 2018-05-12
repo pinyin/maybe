@@ -1,6 +1,6 @@
+import {nothing} from '@pinyin/types'
 import {ensure} from './ensure'
 import {Maybe} from './Maybe'
-import {nothing} from './nothing'
 
 describe(`${ensure.name}`, function () {
     test(`${ensure.name} should be a function`, () => {

@@ -1,0 +1,6 @@
+export {alternate} from './src/alternate'
+export {assume} from './src/assume'
+export {ensure} from './src/ensure'
+export {existing} from './src/existing'
+export {Maybe} from './src/Maybe'
+export {notExisting} from './src/notExisting'

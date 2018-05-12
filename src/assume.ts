@@ -1,6 +1,6 @@
+import {nothing} from '@pinyin/types'
 import {existing} from './existing'
 import {Maybe} from './Maybe'
-import {nothing} from './nothing'
 
 export type FromTo<A, B> = (a: NonNullable<A>) => B
 

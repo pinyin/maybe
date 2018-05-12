@@ -1,12 +1,13 @@
 {
   "name": "@pinyin/maybe",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Call me maybe.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
+  "sideEffects": false,
   "scripts": {
     "prepublishOnly": "rm -r dist && npx tsc",
     "test": "npx jest"
@@ -30,5 +31,8 @@
     "jest": "^22.4.3",
     "ts-jest": "^22.4.4",
     "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "@pinyin/types": "^0.0.12"
   }
 }
