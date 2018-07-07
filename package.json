@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "sideEffects": false,
   "scripts": {
@@ -34,5 +35,28 @@
   },
   "dependencies": {
     "@pinyin/types": "^0.0.38"
+  },
+  "jest": {
+    "roots": [
+      "src"
+    ],
+    "transform": {
+      "^.+\\.(t|j)sx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "verbose": true,
+    "globals": {
+      "ts-jest": {
+        "enableTsDiagnostics": true
+      }
+    }
   }
 }
