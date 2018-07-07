@@ -10,7 +10,7 @@
   ],
   "sideEffects": false,
   "scripts": {
-    "prepublishOnly": "rm -r dist && npx tsc",
+    "prepublishOnly": "rm -rf dist && npx tsc",
     "test": "npx jest"
   },
   "repository": {
